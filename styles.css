@@ -1,6 +1,84 @@
+
+:root{
+    --font: 'Montserrat', sans-serif;
+    --font2: 'Quattrocento Sans', sans-serif;
+
+    --soft-white:#f6f6f6;
+}
+*{
+    margin: 0;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    color: var(--soft-white);
+    font-family:var(--font);
+}
+.weather-contain{
+    width: 450px;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    margin: 100px;
+    background-image: linear-gradient(to bottom right, #00ffee 0%, #153699 100%);
+    border-radius: 10px;
+
+}
+.instruction-contain{
+    margin-top: 75px;
+}
+h1{
+    font-size: 2rem;
+    margin: 10px;
+}
+.result{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+.result h2{
+    font-size: 1.5rem;
+    margin: 10px;
+}
+.result h5{
+    font-size: 1.7rem;
+    margin: 14px;
+}
+.result p{
+    font-size: 1rem;
+}
+ 
 .get-weather{
     display: flex;
     flex-direction: column;
-    height: 500px;
+    align-content: center;
+    justify-content: end;
+    margin-bottom: 20px;
+
+}
+ 
+.get-weather input:nth-child(1){
     width: 400px;
+    padding: 4px;
+
+}
+.get-weather select{
+    width: 410px;
+    padding: 4px;
+    margin-top: 2px;
+
+}
+.get-weather input:nth-child(3){
+    margin-top: 8px;
+    padding: 10px;
+    background-color: rgba(210, 252, 210, 0.7)
 }

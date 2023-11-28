@@ -4,10 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles.css">
-    <title>Document</title>
+    <title>WeatherApp</title>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;1,500&family=Quattrocento+Sans:ital,wght@0,400;0,700;1,400&display=swap');
+      </style>
 </head>
 <body>
-    <div>
+
+   <section class="weather-contain" >
+    <div class="instruction-contain">
+        <h1>Buscador De Clima</h1>
+        <p>Ingrese ciudad y pais</p>
+       
+    </div>
+    <div class="result">
+
+    </div>
+    
+    </div>
         <form action="" method="POST" class="get-weather">
             <input type="text" name="city" id="city" placeholder="Write your city...">
             <select name="" id="country">
@@ -23,8 +38,9 @@
             <input type="submit" name="" id="" value="Get Weather">
         </form>
 
-    </div>
+    </section>
     
 </body>
+<script src="./index.js"></script>
 </html>
 <!-- //https://openweathermap.org/api -->
